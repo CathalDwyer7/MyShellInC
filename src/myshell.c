@@ -13,8 +13,6 @@
  *    - Referenced for understanding system calls and library functions.
  * - course notes
  *    - Used to go over syntax and make sure i understood what the program should be doing
- * - stack overflow
- *    - I didnt know how to properly link my files together so I was able to find this info on stack overflow
  * - youtube channel Jess_inspired 
  *    - Helped me get started and understand what to do as I was overwhelmed at the begining
  */
