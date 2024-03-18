@@ -5,8 +5,6 @@
  * References:
  * - course notes
  *    - Used to go over syntax and make sure i understood what the program should be doing
- * - stack overflow
- *    - I didnt know how to properly link my files together so I was able to find this info on stack overflow
  */
 
 #ifndef HEADER_H
