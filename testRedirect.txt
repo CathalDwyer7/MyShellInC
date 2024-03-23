@@ -1,2 +1,0 @@
-echo "Hello, world!" > output.txt
-cat < inputt.txt
