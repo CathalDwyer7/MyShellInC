@@ -2,13 +2,10 @@
  * Operating Systems Project 1 - myshell
  * Author: Cathal Dwyer
  * Student ID: 22391376
- * References:
- * - course notes
- *    - Used to go over syntax and make sure i understood what the program should be doing
  */
 
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef MYSHELL_H
+#define MYSHELL_H
 
 // Include necessary standard library headers
 #include <stdio.h>
@@ -29,7 +26,8 @@ extern char SHELL_PATH[MAX_LINE];
 
 // Declare function prototypes for the shell functionalities
 void execute_command(char *args[], int background);
-void batch_mode(char *filename);
 void interactive_mode();
+void batch_mode(char *filename);
+void dir_command(char *directory);
 
-#endif /* HEADER_H */
+#endif /* MYSHELL_H */
