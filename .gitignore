@@ -1,2 +1,4 @@
 *.txt
 /bin/myshell
+test_program
+test_program.c
