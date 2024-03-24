@@ -2,7 +2,7 @@
 Welcome to MyShell, a simple command-line shell program designed to help you interact with your computer more effectively. MyShell provides a user-friendly interface for executing commands, managing files, and controlling processes on your system. Whether you're a beginner to UNIX-like systems or an experienced user, MyShell offers an intuitive and efficient way to work with your computer.
 
 //Getting Started
-To use MyShell, simply open your terminal or command prompt and navigate to the directory where the MyShell executable is located. You can then start MyShell by typing ./bin/myshell and pressing Enter.
+To use MyShell, simply open your terminal or command prompt and navigate to the directory where the makefile is located. Type make to create the shell executable. You can then start MyShell by typing ./bin/myshell and pressing Enter.
 
 Basic Commands
 MyShell supports a variety of basic commands that you can use to perform common tasks. Here are some of the most commonly used commands:
@@ -48,9 +48,9 @@ You can run these commands in MyShell using batch mode:
 "$ ./bin/myshell commands.txt"
 
 - Input/Output Redirection: MyShell supports redirection of standard input and output using batch mode. You can use < to redirect input from a file and > or >> to redirect output to a file.
-EXAMPLE: Suppose you have a file named input.txt containing some text. You can redirect this file as input to a command:
+EXAMPLE: Suppose you you want to create a file called output.txt with the text "Hello world!" inside it you can do this by creating a batch file called "Orediretion.txt"
 
-"Orediretion.txt"
+this batchfile has the commands
 echo "Hello, world!" > output.txt
 
 ./bin/myshell Orediretion.txt
@@ -64,8 +64,6 @@ MyShell will execute the command in the background, allowing you to continue usi
 //Conclusion
 
 I hope this user manual helps you get started with MyShell. If you have any questions or encounter any issues, feel free to consult the user manual or reach out for assistance. Happy shell scripting!
-
-Cathal Dwyer
 
  * References:
  * - The C Programming Language, 2nd Edition by Brian W. Kernighan and Dennis M. Ritchie
@@ -82,5 +80,14 @@ Cathal Dwyer
  *    - Helped me get started and understand what to do as I was overwhelmed at the begining
  * - Love, R. (2010). Linux system programming: Talking directly to the kernel and C library. O'Reilly Media.
  *    - helped me on Linux system programming, including file I/O operations, system calls, and kernel interfaces.
- * - Stack overflow
- *    - Stack overflow helped me out when i was coding i/o redirection
+ * - Kerrisk, M. (2010). The Linux programming interface: A Linux and UNIX system programming handbook.
+ *    - This book helped me cover I/O operations
+
+ /*
+ * Operating Systems Project 1 - myshell
+ * Author: Cathal Dwyer
+ * Student ID: 22391376
+ * In submitting this project, I declare that the project material, which I now
+ * submit, is my own work. Any assistance received by way of borrowing from
+ * the work of others has been cited and acknowledged within the work.
+ */
