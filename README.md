@@ -1,20 +1,61 @@
-# CA216 Operating Systems: myshell
+This project is a simple command line shell designed for Linux, providing basic functionalities including command execution, I/O redirection, and batch processing. The shell supports internal commands such as cd, clr, dir, environ, echo, help, pause, and quit, as well as execution of external programs with support for background processing.
 
-## Introduction
-This is the starter repository for the _ca216 Operating Systems_ project entitled `myshell` and which you must complete individually.
-The assignment description can be found at: https://loop.dcu.ie/mod/assign/view.php?id=2326066
+Features
+Internal Commands:
 
+cd [directory]: Change or report the current directory and update the PWD environment variable.
+clr: Clear the screen.
+dir [directory]: List the contents of a directory.
+environ: List all environment variables.
+echo [string]: Display a string on the screen.
+help: Display the user manual using more.
+pause: Pause shell operations until 'Enter' is pressed.
+quit: Exit the shell.
+Shell Environment:
 
-## Academic Integrity
-There is a 0-tolerance approach to plagiarism in this module. If you are found to have breached the DCU Academic Integrity Policy you will simply be given 0.  It does not matter how small or minor the breach, you will simply be given 0 for this assessment.
+The environment includes shell=/myshell with the full path to the shell executable.
+Invoked programs include parent=/myshell in their environment.
+Program Execution:
 
-## What you need to do
-You should follow the instructions below:
+Fork and execute external programs as child processes.
+Support background execution using &.
+Batch Mode:
 
-1. fork (do not clone) this repository.  Once you have forked it, make your own repository private and add me (Graham Healy - @ghealy) as "maintainer".
-2. add all your source files to the `src` directory.
-3. Add your files relating to the manual/help command to the `manual` directory.
-4. Your `makefile` should build the binary and place it in the `bin` directory.
+Execute commands from a specified file.
+I/O Redirection:
 
-## Other notes
-There are supporting exercises to help you with the project.  You will find them all under  [Lab04/05 on the Loop CA216 Site](https://loop.dcu.ie/mod/book/view.php?id=2322719).  Use Git regularly and commit versions of your code often.
+Support input (<) and output (> and >>) redirection for both internal and external commands.
+Miscellaneous:
+
+The command prompt displays the current directory path.
+Handles errors appropriately (e.g., file operations).
+Development and Usage
+System Compatibility:
+
+Designed to compile and run on Linux systems.
+Ensure compatibility by testing on Linux lab computers.
+Code Quality:
+
+Extensively commented and properly structured code.
+Organized into multiple files for better maintainability.
+Building the Shell
+To build the shell, simply run:
+
+go
+Copy code
+make
+User Manual
+The user manual (readme.md) provides detailed descriptions of shell usage, including:
+
+Explanation of I/O redirection, environment variables, and background execution.
+References to at least four peer-reviewed sources using Harvard or IEEE citation style.
+Getting Started
+Clone the repository and build the shell to get started:
+
+bash
+Copy code
+git clone https://github.com/yourusername/simple-shell.git
+cd simple-shell
+make
+Contributing
+Contributions are welcome! Please fork the repository and submit pull requests.
