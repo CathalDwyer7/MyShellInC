@@ -50,12 +50,8 @@ The user manual (readme.md) provides detailed descriptions of shell usage, inclu
 Explanation of I/O redirection, environment variables, and background execution.
 References to at least four peer-reviewed sources using Harvard or IEEE citation style.
 Getting Started
-Clone the repository and build the shell to get started:
+Clone the repository and build the shell to get started
 
-bash
-Copy code
-git clone https://github.com/yourusername/simple-shell.git
-cd simple-shell
 make
 Contributing
 Contributions are welcome! Please fork the repository and submit pull requests.
